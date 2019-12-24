@@ -3,13 +3,15 @@ package main;
 import view.LogIn;
 
 /**
- * 系统入口
+ * 脧碌脥鲁脠毛驴脷
  * 
- * @author 何兴旺
+ * @author 潞脦脨脣脥煤
  * 
  */
 public class Entry {
 	public static void main(String[] args) {
-		new LogIn().setVisible(true);
+		LogIn logIn = new LogIn();
+		logIn.setVisible(true);
+		logIn.invalidate();
 	}
 }
